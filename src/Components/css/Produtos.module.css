@@ -2,10 +2,13 @@
     display: flex;
     color: #B5B5B5;
     border: solid 1px #B5B5B5;
-    width: 230px;
-    height: 48px;
+    width: 250px;
+    height: 50px;
     margin-top: 10px;
     border-radius: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: 1s;
 }
 
 .Filtro p{
@@ -16,6 +19,12 @@
     padding-top: 17px;
     width: 20px;
     height: 20px;
-    padding-left: 130px;
+    padding-left: 140px;
     
+}
+
+.Filtro:hover{
+    transition: 1s;
+    color: black;
+    border-color: black;
 }
