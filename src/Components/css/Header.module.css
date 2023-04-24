@@ -1,0 +1,63 @@
+header{
+    display: flex;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    width: 350px;
+}
+
+.Busca{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+#txtBusca{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size:18px;
+    height:35px;
+    width:191px;
+    border-radius: 20px;
+    border: solid 1px #d0d0d0;
+    font-size: 16px;
+}
+
+.Descon{
+    display: flex;
+    border: solid 1px #686868;
+    border-radius: 20px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.Descon img{
+    width: 32px;
+    height: 32px;
+    padding-right: 3px;
+    padding-top: 2px;
+}
+
+.Descon p{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #686868;
+}
+
+.icons{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.icons img{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+}

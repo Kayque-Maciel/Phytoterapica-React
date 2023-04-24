@@ -1,0 +1,23 @@
+.Listas{
+}
+
+.Listas ul{
+    display: flex;
+    list-style: none;
+}
+
+.Listas li{
+    font-size: 14px;
+    color: #686868;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.Listas li:nth-child(1n){
+    margin-left: 15px;
+}
+
+.Listas li:hover{
+    transition: 1s;
+    color: #99b442;
+}
