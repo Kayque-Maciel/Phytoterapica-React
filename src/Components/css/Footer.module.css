@@ -1,0 +1,82 @@
+footer{
+    margin-top: 30px;
+}
+
+.InfoFooter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Links{
+    color: #626262;
+}
+
+.Links li h3{
+    font-weight: 400;
+}
+
+.Links li{
+    font-weight: 300;
+    font-size: 14px;
+    list-style: none;
+    padding-bottom: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.Links li:hover{
+    transition: 1s;
+    color: #99b442;
+}
+
+.pagamentos h3{
+    font-weight: 400;
+}
+
+.imagens{
+    width: 150px;
+}
+
+.imagens img{
+    width: 50px;
+}
+
+.LogoFooter{
+    justify-content: center;
+}
+
+.LogoFooter img{
+    width: 200px;
+}
+
+.Redes{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+}
+
+.Redes img{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.Redes img:hover{
+    transition: 1s;
+    opacity: 80%;
+}
+
+.segurança{
+    width: 250px;
+}
+
+.segurança img{
+    width: 80px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
