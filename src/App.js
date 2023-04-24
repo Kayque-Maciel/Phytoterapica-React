@@ -3,6 +3,7 @@ import Header from "./Components/Header"
 import Menu from './Components/Menu';
 import Imagem from './Components/Imagem';
 import Produtos from './Components/Produtos';
+import Inscrevase from './Components/Inscrevase';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
    <Imagem />
 
    <Produtos />
+
+   <Inscrevase />
    </>
   );
 }

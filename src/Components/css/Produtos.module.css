@@ -1,9 +1,13 @@
-.Filtro{
+.Cards{
+    display: flex;
+}
+
+.Card1{
     display: flex;
     color: #B5B5B5;
     border: solid 1px #B5B5B5;
-    width: 250px;
-    height: 50px;
+    width: 260px;
+    height: 55px;
     margin-top: 10px;
     border-radius: 5px;
     margin-left: 50px;
@@ -11,11 +15,11 @@
     transition: 1s;
 }
 
-.Filtro p{
+.Card1 p{
     padding-left: 10px;
 }
 
-.Filtro img{
+.Card1 img{
     padding-top: 17px;
     width: 20px;
     height: 20px;
@@ -23,8 +27,40 @@
     
 }
 
-.Filtro:hover{
+.Card1:hover{
     transition: 1s;
-    color: black;
-    border-color: black;
+    color: #000;
+    border-color: #000;
 }
+
+.Card2{
+    display: flex;
+    color: #B5B5B5;
+    border: solid 1px #B5B5B5;
+    width: 260px;
+    height: 55px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.Card2 p{
+    padding-left: 10px;
+}
+
+.Card2 img{
+    padding-top: 17px;
+    width: 23px;
+    height: 23px;
+    padding-left: 90px;
+    
+}
+
+.Card2:hover{
+    transition: 1s;
+    color: #000;
+    border-color: #000;
+}
+

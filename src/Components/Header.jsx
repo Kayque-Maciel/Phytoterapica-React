@@ -6,7 +6,7 @@ import pessoa from "../Components/images/pessoa.png"
 
 function Header(){
     return(
-        <div>
+        <>
         <header>
             <img src={logo} alt="logo" className={styles.logo} />
             <div className={styles.Busca}>
@@ -25,7 +25,7 @@ function Header(){
         </header>
 
         <hr />
-        </div>
+        </>
     )
 }
 

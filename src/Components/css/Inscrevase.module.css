@@ -1,0 +1,32 @@
+.Inscreva{
+    display: flex;
+    margin-top: 50px;
+}
+
+.Texto{
+    margin-left: 150px;
+    width: 200px;
+}
+
+.Texto h2{
+    margin: 0;
+}
+
+.Texto p{
+    margin: 0;
+}
+
+#Txtemail{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 420px;
+    height: 44px;
+    border-radius: 25px;
+    border: solid 1px #d0d0d0;
+    padding-left: 20px;
+    
+}
+
+#InsBtn{
+    padding: 20px;
+}
