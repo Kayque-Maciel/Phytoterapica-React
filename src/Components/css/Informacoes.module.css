@@ -1,0 +1,32 @@
+.Info{
+    display: flex;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Folha{
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+
+.Folha img{
+    width: 60px;
+    height: 60px;
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+.FolhaInfo h3{
+    margin: 0;
+    font-size: 26px;
+    font-weight: 600;
+    color: #263341;
+}
+
+.FolhaInfo p{
+    margin: 0;
+    width: 240px;
+    color: #938a7e;
+}
