@@ -3,6 +3,7 @@ header{
     padding-left: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
+    justify-content: space-evenly;
 }
 
 .logo{

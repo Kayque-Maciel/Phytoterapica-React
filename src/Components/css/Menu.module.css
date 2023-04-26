@@ -1,9 +1,9 @@
-.Listas{
-}
 
 .Listas ul{
     display: flex;
     list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
 }
 
 .Listas li{
@@ -13,9 +13,6 @@
     transition: 1s;
 }
 
-.Listas li:nth-child(1n){
-    margin-left: 15px;
-}
 
 .Listas li:hover{
     transition: 1s;
